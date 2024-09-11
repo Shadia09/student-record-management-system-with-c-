@@ -38,12 +38,12 @@ int main()
  while(ts--)
  {
   cout<<"\n\t\tWhat do you want to do?"<<endl;
-  cout<<"\t\t----------------------"<<endl;
+  cout<<"\t\t                   "<<endl;
   cout<<"\t\t1-Add student"<<endl;
   cout<<"\t\t2-Edit student"<<endl;
   cout<<"\t\t3-Search student"<<endl;
   cout<<"\t\t4-Quit Program"<<endl;
-  cout<<"\t\t----------------------"<<endl;
+  cout<<"\t\t                 "<<endl;
   cout<<"Enter your choice: ";
 
   cin>>choice;
@@ -62,18 +62,18 @@ int main()
     else         
    { 
      cout<<endl;
-     cout<<"--------------------------------------------------------------------------------"<<endl;
-     cout<<"---------------------------Student record Table---------------------------------"<<endl;
-     cout<<"--------------------------------------------------------------------------------"<<endl; 
+     cout<<"                                    "<<endl;
+     cout<<"             Student record Table              "<<endl;
+     cout<<"                                     "<<endl; 
      cout<<"ID   "<<"Roll   "<<"Name      "<<"Father\tCell no.      "<<"DOB          "<<"Address\n\n";
-     cout<<"--------------------------------------------------------------------------------"<<endl; 
+     cout<<"                               "<<endl; 
 
      for(int i=0;i<=ts;i++)
     {
       show_data(i);     //funtion is called with index value to show data.
      }
 
-     cout<<"--------------------------------------------------------------------------------"<<endl;
+     cout<<"                                          "<<endl;
      cout<<"Which ID number your want to edit: ";
    
      cin>>idnumber;           
